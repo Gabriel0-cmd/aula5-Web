@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Descendentes</title>
+    <style>
+        .container * {
+            color: blue;
+        }
+        .section2 li {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <p>Texto 1</p>
+            <p>Texto 2</p>
+            <p>Texto 3</p>
+        </section>
+        <section class="section2">
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
